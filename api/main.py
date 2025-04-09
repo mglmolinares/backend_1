@@ -29,13 +29,13 @@ app.add_middleware(
 # Función para obtener conexión a la base de datos
 def get_db_connection():
     return pymysql.connect(
-        host="autorack.proxy.rlwy.net",
-        user="root",
-        password="yBsbbewWkjWDnGYlGgacUHSlgNtXzvky",
-        database="granjadb",
-        port=54667,
+        host="sql10.freesqldatabase.com",
+        user="sql10772255",
+        password="GlgTY9zwsF",
+        database="sql10772255",
+        port=3306,
         cursorclass=pymysql.cursors.DictCursor,
-    )
+
 
 
 class LoginRequest(BaseModel):
